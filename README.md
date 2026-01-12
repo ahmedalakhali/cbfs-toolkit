@@ -3,7 +3,7 @@
 > **A professional CLI that redefines filesystem interactions by making advanced security transparent and effortless. Delivers enterprise-grade encryption and virtual storage solutions that scale from individual needs to complex infrastructure.**
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Rust](https://img.shields.io/badge/rust-edition%202021-orange.svg)
+![Rust](https://img.shields.io/badge/rust-edition%202024-orange.svg)
 ![Platform](https://img.shields.io/badge/platform-windows%20%7C%20linux%20%7C%20macos-lightgrey.svg)
 
 **CBFS Toolkit** is a powerful command-line application designed to demonstrate the capabilities of the CBFS Vault and CBFS Connect SDKs. It provides a robust solution for creating encrypted file vaults, mounting them as virtual drives, and integrating with cloud storage providers like Google Drive—all secured by enterprise-grade authentication and access control.
