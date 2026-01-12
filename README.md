@@ -14,8 +14,8 @@
 
 ### 🛡️ Secure Storage
 - **Encrypted Vaults**: Create and manage encrypted file vaults (CBC/AES-256).
-- **Compression**: efficient storage with adjustable compression levels.
-- **SQLite Support**: Operate on SQLite databases as encrypted vaults.
+- **Compression**: Efficient storage with adjustable compression levels.
+- **Cloud Integration**: Read your data from a cloud sotrage with strict access controls in a secured virtual drive.
 
 ### ☁️ Cloud & Virtual Drive Integration
 - **FUSE Integration**: Mount vaults as local virtual drives (e.g., `Z:` drive).
