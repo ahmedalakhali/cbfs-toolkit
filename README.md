@@ -1,6 +1,6 @@
 # CBFS Toolkit
 
-> **A professional Rust toolkit for secure vault management and cloud integration using the CBFS Vault and Connect SDKs.**
+> **A professional CLI that redefines filesystem interactions by making advanced security transparent and effortless. Delivers enterprise-grade encryption and virtual storage solutions that scale from individual needs to complex infrastructure.**
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Rust](https://img.shields.io/badge/rust-edition%202021-orange.svg)
