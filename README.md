@@ -13,7 +13,7 @@
 ## 🚀 Features
 
 ### 🛡️ Secure Storage
-- **Secure Storage**: Uses Argon2id password hashing for user credentials.
+- **Secure Storage**: Uses Vaults files to store users data in a compromised and encrupted container, Argon2id password hashing for user credentials.
 - **File Operations**: Add, list, extra, and delete files with optional compression and encryption.
 - **SQLite Support**: Operate on SQLite databases as vaults using the CBFS Vault callback mode.
 
