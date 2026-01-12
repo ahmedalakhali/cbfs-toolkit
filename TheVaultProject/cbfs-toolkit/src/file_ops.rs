@@ -78,13 +78,11 @@ fn os_path_to_vault_path(ospath: &String, vault: &CBVault, params: &FileOpParams
 
 /// Add a file to the vault
 fn add_file(vault: &CBVault, filepath: &String, params: &mut FileOpParams) -> AppResult<()> {
-    #[cfg(target_os = "windows")]
-    let sep_char = "\\";
-    #[cfg(not(target_os = "windows"))]
-    let sep_char = "/";
+    let vault_sep = (vault.path_separator().map_err(|e| AppError::Vault { code: e.get_code(), message: "Path separator error".to_string() })? as u8) as char;
+    let vault_sep_str = vault_sep.to_string();
 
     let vault_file_name = os_path_to_vault_path(filepath, vault, params)?;
-    let vault_file_path = extract_file_path(&vault_file_name, sep_char);
+    let vault_file_path = extract_file_path(&vault_file_name, &vault_sep_str);
 
     // Check if directory exists, create if not
     let exists = vault.file_exists(&vault_file_path).unwrap_or(false);
