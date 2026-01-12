@@ -13,9 +13,9 @@
 ## 🚀 Features
 
 ### 🛡️ Secure Storage
-- **Encrypted Vaults**: Create and manage encrypted file vaults (CBC/AES-256).
-- **Compression**: Efficient storage with adjustable compression levels.
-- **Cloud Integration**: Read your data from a cloud sotrage with strict access controls in a secured virtual drive.
+- **Secure Storage**: Uses Argon2id password hashing for user credentials.
+- **File Operations**: Add, list, extra, and delete files with optional compression and encryption.
+- **SQLite Support**: Operate on SQLite databases as vaults using the CBFS Vault callback mode.
 
 ### ☁️ Cloud & Virtual Drive Integration
 - **FUSE Integration**: Mount vaults as local virtual drives (e.g., `Z:` drive).
